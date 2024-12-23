@@ -83,6 +83,7 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-unit);
+    margin-bottom: calc(var(--spacing-unit) * 2);
 }
 
 .detail {
@@ -95,16 +96,13 @@ h3 {
     font-weight: 600;
 }
 
-.price, 
 .payment {
     background-color: #fff;
     padding: calc(var(--spacing-unit) * 1.5);
     border-radius: var(--border-radius);
-    margin-top: calc(var(--spacing-unit) * 1);
     border: 1px solid #e0e0e0;
 }
 
-.price p, 
 .payment p {
     margin: calc(var(--spacing-unit) * 0.8) 0;
     font-size: 1.4rem;
@@ -202,7 +200,6 @@ h3 {
     }
 
     .event-details, 
-    .price, 
     .payment {
         width: 100%;
         padding: var(--spacing-unit);
